@@ -1,0 +1,81 @@
+/* Creating boilerplate code for every css file:- */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/*  Styling the HTML:-  */
+
+h1 {
+    font-family: arial;
+    font-size: 38px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 7px;
+    border-color: solid black;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.para {
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+}
+
+
+.container {
+    background-color: lightblue;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+
+}
+
+button {
+    background-color: lightseagreen;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all linear 0.2;
+    border: 1px solid black;
+}
+
+button:active {
+    scale: 0.9;
+}
+
+.inputBttnContainer {
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+
+}
+
+#inputBox {
+    border-radius: 5px;
+    padding: 0 10px;
+    border: 5px;
+    border: 1px solid black;
+
+}
+
+.currentColour {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 500;
+    border: 1px solid black;
+}
