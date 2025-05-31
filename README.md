@@ -21,10 +21,3 @@ Structure - background-color-changer/
 ## 📦 Getting Started
 
 To run this project locally, make sure you have the required packages installed.
-
-📄 Please read the **`requirements.txt`** file before running the project to ensure all necessary dependencies are installed.
-
-To install the requirements:
-
-```bash
-pip install -r requirements.txt
